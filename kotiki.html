@@ -4,25 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сайт про котиков</title>
+    <!-- ? Favicon -->
     <link rel="shortcut icon" href="./img/favicat.png" type="image/x-icon" />
+    <!-- ? Подключение внешнего CSS файла -->
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <!-- ? Header -->
     <header class="container">
       <a class="logo" href="/">Котики</a>
       <nav>
+        <!-- ? У ссылок путь это id секций, чтобы можно было спускаться до секции -->
         <a class="nav-link" href="#about">О котиках</a>
         <a class="nav-link" href="#contacts">Контакты котиков</a>
         <a class="nav-link" href="#merch">Мерч котиков</a>
       </nav>
     </header>
+    <!-- ? Main ( основное тело сайта, не включает хедер и футер ) -->
     <main>
       <section class="container">
         <h1>Котики</h1>
         <h2>Мы любим котиков</h2>
-        <!-- * <img src="https://i.pinimg.com/236x/c8/cc/24/c8cc24bba37a25c009647b8875aae0e3.jpg" alt="" /> -->
         <img src="./img/main-kotik.jpg" alt="Главный котик" />
       </section>
+      <!-- ? Hero section -->
       <section class="container" id="about">
         <h1>Кто такие котики?</h1>
         <h3>Мне жаль вас, если вы не знаете про котиков</h3>
@@ -36,8 +41,13 @@
       </section>
       <section class="container" id="contacts">
         <h1>Присоединяйтесь к котикам!</h1>
+        <!-- ? Таблица -->
+        <!-- ? border - границы -->
+        <!-- ? cellspacing - пространство между ячейкой и границей -->
+        <!-- ? cellpadding - пространство между содержимым ячейки и границами ячейки -->
         <table border cellspacing="0" cellpadding="12">
           <thead>
+            <!-- ? <th> для жирного шрифта ( шапки таблицы ) -->
             <tr>
               <th>#</th>
               <th>Имя котика</th>
@@ -83,6 +93,7 @@
       </section>
     </main>
     <footer class="container">
+      <!-- ? Два <div>, чтобы навигация и текст были друг под другом -->
       <div>
         <a class="logo" href="/"><h1>Котики</h1></a>
         <nav>
@@ -92,6 +103,7 @@
         </nav>
       </div>
       <div>
+        <!-- ? &copy; - специальное слово для символа копирайта -->
         <h3>2024 &copy; Все права защищены</h3>
       </div>
     </footer>
