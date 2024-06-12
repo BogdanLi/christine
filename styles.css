@@ -10,6 +10,11 @@ html {
 
 .container {
   margin: 12px 96px;
+  padding: 42px 0;
+}
+
+.section {
+  margin: 120px 96px;
 }
 
 .logo {
@@ -23,12 +28,68 @@ html {
 }
 
 .nav-link {
-  margin: 0 12px 0 0;
+  margin-right: 12px;
   color: black;
   text-decoration: none;
 }
 .nav-link:hover {
   color: rgb(106, 106, 106);
+}
+
+#hero-kotik {
+  width: 464px;
+  border-radius: 100%;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero div {
+  width: 50%;
+}
+
+#scary-kotik {
+  width: 464px;
+  border-radius: 100%;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.about div {
+  width: 50%;
+  text-align: right;
+}
+
+#about-section {
+  background-color: aliceblue;
+}
+
+.cta {
+  width: 200px;
+  height: 56px;
+  margin-top: 12px;
+  background-color: rgb(176, 255, 255);
+  border: 0;
+  border-radius: 26px;
+  font-size: larger;
+  color: rgb(0, 41, 52);
+  cursor: pointer;
+}
+
+.cta:hover {
+  background-color: rgb(173, 247, 247);
+  border: 2px solid rgb(0, 208, 255);
+}
+.cta:active {
+  background-color: rgb(59, 255, 255);
 }
 
 /* 
