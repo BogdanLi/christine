@@ -16,30 +16,44 @@
       <nav>
         <!-- ? У ссылок путь это id секций, чтобы можно было спускаться до секции -->
         <a class="nav-link" href="#about">О котиках</a>
+        <a class="nav-link" href="#about-section">О котиках</a>
         <a class="nav-link" href="#contacts">Контакты котиков</a>
         <a class="nav-link" href="#merch">Мерч котиков</a>
       </nav>
     </header>
     <!-- ? Main ( основное тело сайта, не включает хедер и футер ) -->
     <main>
-      <section class="container">
-        <h1>Котики</h1>
-        <h2>Мы любим котиков</h2>
-        <img src="./img/main-kotik.jpg" alt="Главный котик" />
+      <section id="hero-section">
+        <div class="container section hero">
+          <div>
+            <h1>Котики</h1>
+            <h2>Мы любим котиков</h2>
+            <p>
+              Далеко-далеко за, словесными горами в стране гласных и согласных
+              живут рыбные тексты. Вершину осталось сих агентство коварный
+              большого выйти то безорфографичный, злых пояс страну запятой,
+              приставка свой пунктуация, не заманивший коварных? Свой!
+            </p>
+          </div>
+          <img src="./img/main-kotik.jpg" alt="Главный котик" id="hero-kotik" />
+        </div>
       </section>
-      <!-- ? Hero section -->
-      <section class="container" id="about">
-        <h1>Кто такие котики?</h1>
-        <h3>Мне жаль вас, если вы не знаете про котиков</h3>
-        <p>
-          В уютном уголке, где солнечные лучи танцуют на пылинках, свернувшись
-          клубком, дремлет пушистый комочек. Это не просто домашний любимец -
-          это хранитель очага, мудрый компаньон и источник безграничного
-          умиления.
-        </p>
-        <img src="./img/scary-kotik.jpg" alt="" />
+      <section id="about-section">
+        <div class="container section about">
+          <div>
+            <h1>Кто такие котики?</h1>
+            <h3>Мне жаль вас, если вы не знаете про котиков</h3>
+            <p>
+              В уютном уголке, где солнечные лучи танцуют на пылинках,
+              свернувшись клубком, дремлет пушистый комочек. Это не просто
+              домашний любимец - это хранитель очага, мудрый компаньон и
+              источник безграничного умиления.
+            </p>
+          </div>
+          <img src="./img/scary-kotik.jpg" alt="" id="scary-kotik" />
+        </div>
       </section>
-      <section class="container" id="contacts">
+      <section class="container section" id="contacts">
         <h1>Присоединяйтесь к котикам!</h1>
         <!-- ? Таблица -->
         <!-- ? border - границы -->
@@ -58,33 +72,33 @@
           <tbody>
             <tr>
               <td>1</td>
-              <td>Рика</td>
+              <td>Тоша</td>
               <td>322-356-974</td>
-              <td>Кендзяку</td>
+              <td>Рис</td>
             </tr>
             <tr>
               <td>2</td>
-              <td>Сугуро</td>
+              <td>Оливер</td>
               <td>123-654-789</td>
-              <td>Проклятье</td>
+              <td>Рыбу</td>
             </tr>
             <tr>
               <td>3</td>
-              <td>Лу</td>
+              <td>Агата</td>
               <td>456-654-874</td>
               <td>Нормальную еду</td>
             </tr>
             <tr>
               <td>4</td>
-              <td>Сукуна</td>
+              <td>Феликс</td>
               <td>984-753-461</td>
-              <td>Душа</td>
+              <td>Феликс</td>
             </tr>
           </tbody>
         </table>
-        <button>Стать котиком!</button>
+        <button class="cta">Стать котиком!</button>
       </section>
-      <section id="merch" class="container">
+      <section id="merch" class="container section">
         <h1>Будь котиком!</h1>
         <img src="./img/tshirt-kotik.jpg" alt="Футболка котик" />
         <img src="./img/hoodie-kotik.jpg" alt="Худи котик" />
@@ -97,7 +111,7 @@
       <div>
         <a class="logo" href="/"><h1>Котики</h1></a>
         <nav>
-          <a class="nav-link" href="#about">О котиках</a>
+          <a class="nav-link" href="#about-section">О котиках</a>
           <a class="nav-link" href="#contacts">Контакты котиков</a>
           <a class="nav-link" href="#merch">Мерч котиков</a>
         </nav>
