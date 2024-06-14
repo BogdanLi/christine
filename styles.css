@@ -13,32 +13,62 @@ html {
   padding: 42px 0;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .section {
   margin: 120px 96px;
 }
 
 .logo {
-  color: purple;
+  color: #0a0626;
   text-decoration: none;
-  font-size: 32px;
-  font-weight: 900;
+  font-size: 40px;
+  font-weight: 700;
 }
 .logo:hover {
-  color: rgb(188, 10, 188);
+  color: #ac31ed;
 }
 
 .nav-link {
-  margin-right: 12px;
-  color: black;
+  margin-right: 24px;
+  color: #0a0626;
   text-decoration: none;
+  font-size: 24px;
 }
 .nav-link:hover {
-  color: rgb(106, 106, 106);
+  color: #8c07bb;
+  font-weight: 600;
 }
 
-#hero-kotik {
-  width: 464px;
+.kotiki {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px;
+}
+
+.hero-kotik {
+  width: 300px;
   border-radius: 100%;
+}
+
+.just-kotik {
+  width: 300px;
+  border-radius: 16%;
+}
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.text {
+  width: 50%;
 }
 
 .hero {
@@ -49,11 +79,6 @@ html {
 
 .hero div {
   width: 50%;
-}
-
-#scary-kotik {
-  width: 464px;
-  border-radius: 100%;
 }
 
 .about {
