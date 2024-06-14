@@ -44,6 +44,10 @@ header {
   font-weight: 600;
 }
 
+.center-text {
+    text-align: center;
+}
+
 .kotiki {
   display: flex;
   flex-wrap: wrap;
@@ -58,6 +62,8 @@ header {
 
 .just-kotik {
   width: 300px;
+  height: 300px;
+  object-fit: cover;
   border-radius: 16%;
 }
 
@@ -116,6 +122,13 @@ header {
 .cta:active {
   background-color: rgb(59, 255, 255);
 }
+
+#merch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 /* 
 * TRouBLe
